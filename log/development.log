@@ -1,0 +1,16 @@
+Started GET "/" for ::1 at 2020-04-07 13:10:33 +0700
+  [1m[35m (11.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/muhamadazhar/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/muhamadazhar/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 19.6ms | Allocations: 481)
+Completed 200 OK in 79ms (Views: 51.3ms | ActiveRecord: 0.0ms | Allocations: 2889)
+
+
+Started GET "/" for ::1 at 2020-04-07 13:17:40 +0700
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#awesome_action as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 18ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 830)
+
+
